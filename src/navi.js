@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 const Navi = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="bg-lightBlue">
       <Navbar.Brand href="#home">
         <img
           src="/assets/houseBP.jpg"
