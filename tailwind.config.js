@@ -3,6 +3,7 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
+  prefix: 'tw-',
   theme: {
     extend: {},
     colors: {
@@ -12,6 +13,12 @@ module.exports = {
       blue: colors.blue,
       teal: colors.teal,
       transparent: 'transparent',
+    },
+    screens: {
+      'sm': '576px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1200px',
     },
   },
   variants: {

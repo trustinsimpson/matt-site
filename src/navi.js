@@ -1,4 +1,5 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import logo from './assets/houseBP.jpg';
 
 
 const Navi = () => {
@@ -6,11 +7,11 @@ const Navi = () => {
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Navbar.Brand href="#home">
         <img
-          src="/assets/houseBP.jpg"
+          src={logo}
           width="30"
           height="30"
-          className="d-inline-block align-top mr-1 rounded-lg"
-          alt="React Bootstrap logo"
+          className="d-inline-block align-top tw-mr-1 tw-rounded-md"
+          alt="Blue Print logo"
         />
         Matt's Drafting
       </Navbar.Brand>

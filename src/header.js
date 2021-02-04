@@ -1,16 +1,16 @@
 import React from "react";
 import { Button, Jumbotron } from "react-bootstrap";
+import background from './assets/house.jpg';
 
 const Header = () => {
   return (
-    <Jumbotron className="bg-black">
-      <h1>Hello, world!</h1>
+    <Jumbotron className="tw-h" style={{ height: '80vh', backgroundImage: `url(${background})`}}>
+      <h1>Welcome!</h1>
       <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        A drafting agency that cares as much about your next home as you do.
       </p>
       <p>
-        <Button variant="primary">Learn more</Button>
+        <Button variant="primary" className="bg-lightBlue-400">Learn more</Button>
       </p>
     </Jumbotron>
   );
