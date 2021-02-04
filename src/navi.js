@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 const Navi = () => {
   return (
-    <Navbar bg="light" expand="lg" className="bg-lightBlue">
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Navbar.Brand href="#home">
         <img
           src="/assets/houseBP.jpg"
@@ -16,7 +16,7 @@ const Navi = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
