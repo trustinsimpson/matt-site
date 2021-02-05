@@ -1,17 +1,25 @@
 import React from "react";
-import { Button, Jumbotron } from "react-bootstrap";
-import background from './assets/house.jpg';
+import { Button, Container, Jumbotron } from "react-bootstrap";
+import background from "./assets/home.jfif";
 
 const Header = () => {
   return (
-    <Jumbotron className="tw-h" style={{ height: '80vh', backgroundImage: `url(${background})`}}>
-      <h1>Welcome!</h1>
-      <p>
-        A drafting agency that cares as much about your next home as you do.
-      </p>
-      <p>
-        <Button variant="primary" className="bg-lightBlue-400">Learn more</Button>
-      </p>
+    <Jumbotron
+      fluid
+      className="lead tw-box-content tw-min-h-screen tw-bg-cover"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      <Container fluid>
+      {/* <div className='tw-pl-10'> */}
+        <h1>Welcome!</h1>
+        <p>
+          A drafting agency that cares as much about your next home as you do.
+        </p>
+        <p>
+          <Button variant="primary">Learn more</Button>
+        </p>
+      {/* </div> */}
+      </Container>
     </Jumbotron>
   );
 };
