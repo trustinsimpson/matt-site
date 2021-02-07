@@ -10,7 +10,6 @@ const Header = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <Container fluid>
-      {/* <div className='tw-pl-10'> */}
         <h1>Welcome!</h1>
         <p>
           A drafting agency that cares as much about your next home as you do.
@@ -18,7 +17,6 @@ const Header = () => {
         <p>
           <Button variant="primary">Learn more</Button>
         </p>
-      {/* </div> */}
       </Container>
     </Jumbotron>
   );
