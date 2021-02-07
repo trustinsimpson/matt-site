@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
-import background from "./assets/home.jfif";
+import background from "../assets/home.jfif";
 
 const Header = () => {
   return (

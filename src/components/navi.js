@@ -1,5 +1,5 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import logo from './assets/house.png';
+import logo from '../assets/house.png';
 
 
 const Navi = () => {
@@ -8,8 +8,8 @@ const Navi = () => {
       <Navbar.Brand href="#home">
         <img
           src={logo}
-          width="30"
-          height="30"
+          width="26"
+          height="26"
           className="d-inline-block align-top tw-mr-1"
           alt="Blue Print logo"
         />
