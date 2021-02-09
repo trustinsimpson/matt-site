@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import BP from '../assets/blueprints.gif';
+import Construction from '../assets/house-with-blueprint.jpg';
 
 
 const Caro = () => {
@@ -20,8 +21,8 @@ const Caro = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="d-block w-100 tw-h-75"
+          src={Construction}
           alt="Third slide"
         />
 
