@@ -5,14 +5,28 @@ import Construction from '../assets/house-with-blueprint.jpg';
 
 
 const Caro = () => {
+
+  const picHeight = '885px';
+
+  const overlay = {
+    zIndex: '1',
+    height: '100%',
+    width: '100%',
+    position: 'fixed',
+    overflow: 'auto',
+    top: '0px',
+    left: '0px',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)'
+  };
+
   return (
     <Carousel className="">
       <Carousel.Item>
         <img
           className="d-block w-100"
-          height="800"
+          style={{ height: picHeight }}
           src={BP}
-          // src="../assets/blueprints.gif/800x400?text=First slide&bg=373940"
+          // src="../assets/blueprints2.jpg/800x400?text=First slide&bg=373940"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,9 +34,10 @@ const Caro = () => {
           <p>Your dream home starts with the concept! We'll help you get it right the first time!</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item style={{ overlay }}>
         <img
           className="d-block w-100 tw-overscroll-none"
+          style={{ height: picHeight }}
           src={Construction}
           alt="Third slide"
         />
@@ -35,6 +50,7 @@ const Caro = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
+          style={{ height: picHeight }}
           src={Construction}
           alt="Third slide"
         />
