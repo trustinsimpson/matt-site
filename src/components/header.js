@@ -15,7 +15,7 @@ const Header = () => {
           A drafting agency that cares as much about your next home as you do.
         </p>
         <p>
-          <Button variant="primary" >Learn more</Button>
+          <Button variant="primary">Learn more</Button>
         </p>
       </Container>
     </Jumbotron>

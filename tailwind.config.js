@@ -12,6 +12,7 @@ module.exports = {
       cyan: colors.cyan,
       blue: colors.blue,
       teal: colors.teal,
+      black: colors.black,
       transparent: 'transparent',
     },
     screens: {

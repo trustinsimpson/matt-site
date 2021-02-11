@@ -1,6 +1,5 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import logo from '../assets/house.png';
-
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import logo from "../assets/house.png";
 
 const Navi = () => {
   return (
