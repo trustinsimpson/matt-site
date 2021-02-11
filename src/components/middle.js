@@ -3,7 +3,7 @@ import { Jumbotron, Container } from 'react-bootstrap';
 
 const Middle = () => {
   return (
-    <Jumbotron fluid className="mb-0 tw-bg-black">
+    <Jumbotron fluid className="mb-0 tw-bg-white">
       <Container>
         <h1>Fluid jumbotron</h1>
         <p>
