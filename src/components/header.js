@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Jumbotron
       fluid
-      className="lead tw-box-content tw-min-h-screen tw-bg-cover"
+      className="lead tw-box-content tw-min-h-screen tw-bg-cover mb-0"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Container fluid>

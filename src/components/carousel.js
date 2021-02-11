@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import BP from '../assets/blueprints2.jpg';
 import Construction from '../assets/house-with-blueprint.jpg';
+import CompModel from '../assets/3d.jpg';
+import Finished from '../assets/finishedHome.jpg';
 
 
 const Caro = (props) => {
@@ -17,7 +19,7 @@ const Caro = (props) => {
       overflow: 'auto',
       top: '0px',
       left: '0px',
-      backgroundColor: 'rgba(0, 0, 0, 0.6)'
+      backgroundColor: 'rgba(0, 0, 0, 0.55)'
     },
     image: {
       backgroundImage: `url(${props.link})`,
@@ -29,7 +31,7 @@ const Caro = (props) => {
   };
 
   return (
-    <Carousel>
+    <Carousel className="tw-mt-0">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -38,7 +40,7 @@ const Caro = (props) => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Drafting!</h3>
+          <h3>Drafting</h3>
           <p>Your dream home starts with the concept! We'll help you get it right the first time!</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -46,14 +48,16 @@ const Caro = (props) => {
         <img
           className="d-block w-100 tw-overscroll-none"
           style={{ height: picHeight }}
-          src={Construction}
+          src={CompModel}
           alt="Third slide"
         />
                   <div style={styles.overlay}>
           </div>
         <Carousel.Caption>
-          <h3>Revisions</h3>
-          <p>Got a set of plans but not quite your dream? We can fix that!</p>
+          <h3>Computer Modeling</h3>
+          <p>
+            Want to know exactly what your home will look like before you break ground? No problem!
+            </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -66,9 +70,24 @@ const Caro = (props) => {
           <div style={styles.overlay}>
           </div>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Revisions</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Got a set of plans but not quite your dream? We can fix that!
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          style={{ height: picHeight }}
+          src={Finished}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Here To The End</h3>
+          <p>
+          We started this together and we'll be here for you until the sweet finish!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
