@@ -4,7 +4,7 @@ import { Jumbotron, Container } from 'react-bootstrap';
 const Footer = () => {
   return (
     <Jumbotron fluid className="mb-0 tw-bg-white">
-      <Container>
+      <Container className="text-center">
         <h1>Fluid jumbotron</h1>
         <p>
           This is a modified jumbotron that occupies the entire horizontal space

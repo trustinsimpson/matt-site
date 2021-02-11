@@ -1,14 +1,20 @@
 import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
-import background from "../assets/home.jfif";
+import background from "../assets/home2.jfif";
 
 const Header = () => {
+  const styles = {
+    image: {
+      backgroundImage: `url(${background})`,
+      height: "auto",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+    },
+  };
+
   return (
-    <Jumbotron
-      fluid
-      className="lead tw-box-content tw-min-h-screen tw-bg-cover mb-0"
-      style={{ backgroundImage: `url(${background})` }}
-    >
+    <Jumbotron fluid className="lead  mb-0" style={styles.image}>
       <Container fluid>
         <h1>Welcome!</h1>
         <p>

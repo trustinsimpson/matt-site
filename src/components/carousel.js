@@ -20,8 +20,8 @@ const Caro = (props) => {
       backgroundColor: "rgba(0, 0, 0, 0.55)",
     },
     image: {
-      backgroundImage: `url(${props.link})`,
-      height: "100vh",
+      width: "100%",
+      height: "auto",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
@@ -33,7 +33,7 @@ const Caro = (props) => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{ height: picHeight }}
+          style={styles.image}
           src={BP}
           alt="First slide"
         />
@@ -48,7 +48,7 @@ const Caro = (props) => {
       <Carousel.Item>
         <img
           className="d-block w-100 tw-overscroll-none"
-          style={{ height: picHeight }}
+          style={styles.image}
           src={CompModel}
           alt="Third slide"
         />
@@ -64,7 +64,7 @@ const Caro = (props) => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{ height: picHeight }}
+          style={styles.image}
           src={Construction}
           alt="Third slide"
         />
@@ -77,7 +77,7 @@ const Caro = (props) => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{ height: picHeight }}
+          style={styles.image}
           src={Finished}
           alt="Third slide"
         />
