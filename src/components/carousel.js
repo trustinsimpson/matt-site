@@ -1,12 +1,11 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import BP from "../assets/blueprints2.jpg";
+import BP from "../assets/blueprints.jpg";
 import Construction from "../assets/house-with-blueprint.jpg";
-import CompModel from "../assets/3d.jpg";
+import CompModel from "../assets/3dRender.jpg";
 import Finished from "../assets/finishedHome.jpg";
 
-const Caro = (props) => {
-  const picHeight = "885px";
+const Caro = () => {
 
   const styles = {
     overlay: {

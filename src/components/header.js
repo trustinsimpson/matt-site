@@ -6,15 +6,17 @@ const Header = () => {
   const styles = {
     image: {
       backgroundImage: `url(${background})`,
-      height: "auto",
+      height: "100%",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
+      objectFit: "cover",
+      display: "block",
     },
   };
 
   return (
-    <Jumbotron fluid className="lead  mb-0" style={styles.image}>
+    <Jumbotron fluid className="lead mb-0" style={styles.image}>
       <Container fluid>
         <h1>Welcome!</h1>
         <p>
