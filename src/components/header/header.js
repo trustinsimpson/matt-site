@@ -1,17 +1,20 @@
 import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
-import background from "../assets/home2.jfif";
+import background from "../../assets/home2.jfif";
+import "./header.css";
 
 const Header = () => {
   const styles = {
     image: {
       backgroundImage: `url(${background})`,
-      height: "100%",
+      minHeight: "56rem",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      objectFit: "cover",
+      // objectFit: "cover",
       display: "block",
+      // paddingTop: "5rem",
+      // paddingBottom: "20%"
     },
   };
 
