@@ -1,10 +1,13 @@
 import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
+import Navi from "./navi";
 
 const About = () => {
 
   return (
-    <Jumbotron fluid className="lead mb-0" style={styles.image}>
+    <div>
+    <Navi />
+    <Jumbotron fluid>
       <Container fluid>
         <h1>Welcome!</h1>
         <p>
@@ -15,6 +18,7 @@ const About = () => {
         </p>
       </Container>
     </Jumbotron>
+    </div>
   );
 };
 

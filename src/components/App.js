@@ -7,6 +7,7 @@ import Middle from "./middle";
 
 const App = () => {
   return (
+    
     <div>
       <Navi />
       <Header />
