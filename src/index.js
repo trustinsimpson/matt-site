@@ -10,6 +10,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header/header";
 import About from "./components/about";
 import Navi from "./components/navi";
+import Services from "./components/services";
+import Contact from "./components/contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +19,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
+        <Route path="/services" component={Services} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,

@@ -27,7 +27,7 @@ class Navi extends React.Component {
               <Nav.Link href="#about">About</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/services">
-              <Nav.Link href="#caro">Services</Nav.Link>
+              <Nav.Link href="#services">Services</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
               <Nav.Link href="#link">Contact</Nav.Link>
