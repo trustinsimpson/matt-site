@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Switch, Route, Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import logo from "../assets/house.png";
+import logo from "../assets/house1.png";
 
 class Navi extends React.Component {
   render() {

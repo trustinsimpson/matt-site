@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
-import background from "../../assets/home2.jpg";
+import background from "../../assets/home.jpg";
 import "./header.css";
 
 const Header = () => {

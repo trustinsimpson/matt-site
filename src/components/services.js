@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardDeck } from "react-bootstrap";
 import Navi from "./navi";
-import BP from "../assets/bp_thumbnail2.jpg";
+import BP from "../assets/bp_thumbnail.jpg";
 
 // Create cards for each service. When clicked the card expands with product description
 
