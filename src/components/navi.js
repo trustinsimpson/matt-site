@@ -13,7 +13,7 @@ class Navi extends React.Component {
             <img
               src={logo}
               width="26"
-              height="26"
+              height="30"
               className="d-inline-block align-top tw-mr-1"
               alt="Blue Print logo"
             />
