@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import BP from "../assets/blueprints.jpg";
-import Construction from "../assets/house-with-blueprint.jpg";
-import CompModel from "../assets/3dRender.jpg";
+import BP from "../assets/blueprints1.jpg";
+import Construction from "../assets/house-with-blueprint1.jpg";
+import CompModel from "../assets/3dRender1.jpg";
 import Finished from "../assets/finishedHome.jpg";
 
 const Caro = () => {
@@ -31,7 +31,7 @@ const Caro = () => {
     <Carousel className="tw-mt-0">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           style={styles.image}
           src={BP}
           alt="First slide"
@@ -46,7 +46,7 @@ const Caro = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 tw-overscroll-none"
+          className="d-block tw-overscroll-none"
           style={styles.image}
           src={CompModel}
           alt="Third slide"
@@ -62,7 +62,7 @@ const Caro = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           style={styles.image}
           src={Construction}
           alt="Third slide"
@@ -73,7 +73,7 @@ const Caro = () => {
           <p>Got a set of plans but not quite your dream? We can fix that!</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100"
           style={styles.image}
@@ -88,7 +88,7 @@ const Caro = () => {
             finish!
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 };

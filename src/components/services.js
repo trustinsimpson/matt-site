@@ -1,25 +1,59 @@
 import React from "react";
-import { Button, Container, Jumbotron } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 import Navi from "./navi";
-
+import BP from "../assets/bp_thumbnail2.jpg";
 
 // Create cards for each service. When clicked the card expands with product description
 
 const Services = () => {
+  const styles = {
+    image: {
+      width: "100%",
+      height: "auto",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+    },
+  };
+
   return (
     <div>
       <Navi />
-      <Jumbotron fluid>
-        <Container fluid>
-          <h1>Services!</h1>
-          <p>
-            A drafting agency that cares as much about your next home as you do.
-          </p>
-          <p>
-            <Button variant="primary">Learn more</Button>
-          </p>
-        </Container>
-      </Jumbotron>
+      <CardDeck className="tw-pt-10 tw-px-4">
+        <Card>
+          <Card.Header as="h5">Drafting</Card.Header>
+          <Card.Img variant="top" src={BP} style={styles.image} />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This card has supporting text below as a natural lead-in to
+              additional content.{" "}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Header as="h5">Computer Modeling</Card.Header>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This card has supporting text below as a natural lead-in to
+              additional content.{" "}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Header as="h5">Revisions</Card.Header>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This card has supporting text below as a natural lead-in to
+              additional content.{" "}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardDeck>
     </div>
   );
 };
