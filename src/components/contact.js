@@ -2,6 +2,9 @@ import React from "react";
 import { Button, Container, Jumbotron } from "react-bootstrap";
 import Navi from "./navi";
 
+// Make contact form, align in middle of page
+// Make background image a beautiful home?
+
 const Contact = () => {
   return (
     <div>

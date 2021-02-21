@@ -4,6 +4,8 @@ import Navi from "./navi";
 import BP from "../assets/bp_thumbnail.jpg";
 
 // Create cards for each service. When clicked the card expands with product description
+// Try top and bottom borders on page and make initial card size smaller
+// When on mobile, ditch top and bottom boarders and vertically align cards?
 
 const Services = () => {
   const styles = {
