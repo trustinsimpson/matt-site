@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'Avant';
+  src: local('Avant'), url(./assets/ITC\ Avant\ Garde\ Gothic\ CE\ Book.otf) format('otf');
+}

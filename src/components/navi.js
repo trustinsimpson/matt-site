@@ -16,7 +16,7 @@ class Navi extends React.Component {
               width="26"
               height="30"
               className="d-inline-block align-top tw-mr-1"
-              alt="Blue Print logo"
+              alt="house logo"
             />
             MM Designs
           </Navbar.Brand>

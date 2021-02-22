@@ -3,7 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import BP from "../assets/blueprints1.jpg";
 import Construction from "../assets/house-with-blueprint1.jpg";
 import CompModel from "../assets/3dRender1.jpg";
-import Finished from "../assets/finishedHome.jpg";
 
 const Caro = () => {
 
@@ -73,22 +72,6 @@ const Caro = () => {
           <p>Got a set of plans but not quite your dream? We can fix that!</p>
         </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <img
-          className="d-block w-100"
-          style={styles.image}
-          src={Finished}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Here To The End</h3>
-          <p>
-            We started this together and we'll be here for you until the sweet
-            finish!
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item> */}
     </Carousel>
   );
 };

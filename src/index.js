@@ -7,9 +7,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // components
-import Header from "./components/header/header";
 import About from "./components/about";
-import Navi from "./components/navi";
 import Services from "./components/services";
 import Contact from "./components/contact";
 

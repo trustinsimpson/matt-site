@@ -9,7 +9,7 @@ const Header = () => {
     <div className="heroImage" style={{backgroundImage: `url(${background})`}}>
     <div className="heroOverlay"></div>
     
-      <Container fluid className="tw-relative tw-text-white tw-p-9">
+      <Container fluid className="headerText tw-relative tw-text-white tw-p-9">
         <h1>Welcome Home!</h1>
         <p className="tw-font-semibold">
           MM Designs, where we care as much about your next home as you do.
