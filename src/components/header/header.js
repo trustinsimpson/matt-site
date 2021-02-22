@@ -7,22 +7,31 @@ const Header = () => {
   const styles = {
     image: {
       backgroundImage: `url(${background})`,
-      minHeight: "56rem",
+      minHeight: "55rem",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      // objectFit: "cover",
       display: "block",
-      // paddingTop: "5rem",
-      // paddingBottom: "20%"
     },
+    overlay: {
+      zIndex: "0",
+      height: "100%",
+      width: "100%",
+      position: "absolute",
+      overflow: "auto",
+      top: "0px",
+      left: "0px",
+      backgroundColor: "rgba(0, 0, 0, 0.55)",
+    }
   };
 
   return (
-    <Jumbotron fluid className="lead mb-0" style={styles.image}>
-      <Container fluid>
-        <h1>Welcome!</h1>
-        <p>
+    <div>
+    <div style={styles.overlay}></div>
+    <Jumbotron fluid className="lead mb-0 tw-text-white" style={styles.image}>
+      <Container fluid className="tw-absolute tw-z-10">
+        <h1>Welcome Home!</h1>
+        <p className="tw-font-semibold">
           A drafting agency that cares as much about your next home as you do.
         </p>
         <p>
@@ -30,6 +39,7 @@ const Header = () => {
         </p>
       </Container>
     </Jumbotron>
+    </div>
   );
 };
 

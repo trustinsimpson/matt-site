@@ -4,10 +4,12 @@ import { Switch, Route, Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import logo from "../assets/house1.png";
 
+//bg="dark" variant="dark"
+
 class Navi extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Navbar className="tw-bg-gray-800" variant="dark" expand="lg" sticky="top">
         <LinkContainer to="/">
           <Navbar.Brand href="#home">
             <img
@@ -17,14 +19,14 @@ class Navi extends React.Component {
               className="d-inline-block align-top tw-mr-1"
               alt="Blue Print logo"
             />
-            Matt's Drafting
+            MM Designs
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <LinkContainer to="/about">
-              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#about" className="tw-text-white">About</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/services">
               <Nav.Link href="#services">Services</Nav.Link>
