@@ -4,6 +4,6 @@
 
 
 @font-face {
-  font-family: 'Avant';
-  src: local('Avant'), url(./assets/ITC\ Avant\ Garde\ Gothic\ CE\ Book.otf) format('otf');
+  font-family: 'MyAvant';
+  src: local('MyAvant'), url(./assets/itc-avant-garde-gothic-lt-bold.ttf) format('opentype');
 }

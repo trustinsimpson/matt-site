@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from 'react-bootstrap';
 import "./footer.css";
+import MyAvant from "../../assets/ITC Avant Garde Gothic CE Book.otf";
 
 // change font to Avant Garde that is smoother and not as aggressive
 
