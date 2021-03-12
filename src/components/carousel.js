@@ -27,7 +27,7 @@ const Caro = () => {
   };
 
   return (
-    <Carousel className="tw-mt-0">
+    <Carousel className="text tw-mt-0">
       <Carousel.Item>
         <img
           className="d-block"

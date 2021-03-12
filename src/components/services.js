@@ -21,7 +21,7 @@ const Services = () => {
   return (
     <div>
       <Navi />
-      <CardDeck className="tw-pt-10 tw-px-4">
+      <CardDeck className="text tw-pt-10 tw-px-4">
         <Card>
           <Card.Header as="h5">Drafting</Card.Header>
           <Card.Img variant="top" src={BP} style={styles.image} />

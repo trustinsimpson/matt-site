@@ -8,7 +8,7 @@ import logo from "../assets/house1.png";
 class Navi extends React.Component {
   render() {
     return (
-      <Navbar className="tw-bg-gray-800" variant="dark" expand="lg" sticky="top">
+      <Navbar className="text tw-bg-gray-800" variant="dark" expand="lg" sticky="top">
         <LinkContainer to="/">
           <Navbar.Brand href="#home">
             <img

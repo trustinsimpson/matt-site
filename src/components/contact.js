@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <Navi />
       <Jumbotron fluid>
-        <Container fluid>
+        <Container fluid className="text">
           <h1>Contact!</h1>
           <p>
             A drafting agency that cares as much about your next home as you do.

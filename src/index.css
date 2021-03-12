@@ -4,10 +4,15 @@
 
 
 @font-face {
-  font-family: 'MyAvant';
-  src: local('MyAvant'), url(./assets/itc-avant-garde-gothic-lt-bold.ttf) format('opentype');
+  font-family: 'AvBold';
+  src: local('AvBold'), url(./assets/itc-avant-garde-gothic-lt-bold.ttf) format('opentype');
 }
 
-.headerText {
+@font-face {
+  font-family: 'MyAvant';
+  src: local('MyAvant'), url(./assets/Avant/ITCAvantGardeStdMdCn.woff) format('opentype');
+}
+
+.text {
   font-family: "MyAvant";
 }
